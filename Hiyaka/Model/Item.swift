@@ -9,15 +9,15 @@ import UIKit
 
 class Item {
     
-    var itemId: String
+//    var itemId: String
     var itemImage: UIImage?
     var itemDescription: String
-    var itemPrice: String
+//    var itemPrice: String
     
-    init(id: String, image: UIImage? , desc: String, price: String) {
-        self.itemId = id
+    init(/*id: String*/ image: UIImage? , desc: String/* , price: String*/) {
+//        self.itemId = id
         self.itemImage = image
         self.itemDescription = desc
-        self.itemPrice = price
+//        self.itemPrice = price
     }
 }

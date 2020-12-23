@@ -43,10 +43,10 @@ func getItemList() {
             print("Item dose not exist \(error) ")
         } else {
             for doc in querySnapshot!.documents {
-                let itemID = (doc["itemId"] as! String)
+//                let itemID = (doc["itemId"] as! String)
                 let imageURL = (doc["itemImgae"] as! String )
                 let description = (doc["itemDescription"] as! String)
-                let price = (doc["itemPrice"] as! String)
+//                let price = (doc["itemPrice"] as! String)
         
                 let gsRefrence = storage.reference(forURL: imageURL)
 //                let storageRef = storage.reference()
@@ -60,7 +60,7 @@ func getItemList() {
                     } else {
                       // Data for "images/island.jpg" is returned
                         image = UIImage(data: data!)
-                        let itemInfo = Item(id: itemID, image: image , desc: description, price: price)
+                        let itemInfo = Item(/*id: itemID,*/ image: image , desc: description/*, price: price*/)
                         items.append(itemInfo)
                         collectionView.reloadData()
                     }
@@ -90,6 +90,6 @@ func getItemList() {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.frame.width / 2
-        return CGSize(width: width , height: width)
+        return CGSize(width: width , height: 200)
     }
 }
