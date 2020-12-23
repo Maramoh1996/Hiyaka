@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BCC21F32591FED70035DA17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC21F22591FED70035DA17 /* AppDelegate.swift */; };
+		2BCC21F52591FED70035DA17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC21F42591FED70035DA17 /* SceneDelegate.swift */; };
+		2BCC21F72591FED70035DA17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC21F62591FED70035DA17 /* ViewController.swift */; };
+		2BCC21FA2591FED70035DA17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC21F82591FED70035DA17 /* Main.storyboard */; };
+		2BCC21FF2591FEDA0035DA17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC21FD2591FEDA0035DA17 /* LaunchScreen.storyboard */; };
+		2BCC220A2591FEDA0035DA17 /* HiyakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC22092591FEDA0035DA17 /* HiyakaTests.swift */; };
+		2BCC22152591FEDB0035DA17 /* HiyakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC22142591FEDB0035DA17 /* HiyakaUITests.swift */; };
+		2BCC22292591FF650035DA17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC22282591FF650035DA17 /* User.swift */; };
+		2BCC222E2591FF730035DA17 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC222D2591FF730035DA17 /* Item.swift */; };
+		2BCC22332591FF800035DA17 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC22322591FF800035DA17 /* Order.swift */; };
+		2BCC223D259201370035DA17 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC223C259201370035DA17 /* RegisterViewController.swift */; };
+		2BCC2245259201560035DA17 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2244259201560035DA17 /* ItemListViewController.swift */; };
+		2BCC224A259201650035DA17 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2249259201650035DA17 /* ItemCell.swift */; };
+		2BCC224F259201A00035DA17 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC224E259201A00035DA17 /* CartViewController.swift */; };
+		2BCC2254259201D60035DA17 /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2253259201D60035DA17 /* WishViewController.swift */; };
+		2BCC2259259202040035DA17 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2258259202040035DA17 /* PaymentViewController.swift */; };
+		2BCC225E259202500035DA17 /* OrderSucceedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC225D2592024F0035DA17 /* OrderSucceedViewController.swift */; };
+		2BCC22632592026E0035DA17 /* OrderFailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC22622592026E0035DA17 /* OrderFailedViewController.swift */; };
+		2BCC2269259202EB0035DA17 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2268259202EB0035DA17 /* OrderViewController.swift */; };
+		2BCC2272259203590035DA17 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2271259203590035DA17 /* ProfileViewController.swift */; };
+		2BCC2277259203720035DA17 /* ProfileSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC2276259203720035DA17 /* ProfileSettingViewController.swift */; };
+		2BCC22AF2592390E0035DA17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC22AE2592390E0035DA17 /* GoogleService-Info.plist */; };
+		3FA2C9AE4AA93F7A2CFEC2A9 /* Pods_Hiyaka_HiyakaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5EF5F84519BA17F22D67CE /* Pods_Hiyaka_HiyakaUITests.framework */; };
+		3FB6167685F18BDEB4F603AF /* Pods_HiyakaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25819CDE87F8DF6CF000A227 /* Pods_HiyakaTests.framework */; };
+		DB1060A523B115F66DE7A6E7 /* Pods_Hiyaka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C305E039E87F486695833C /* Pods_Hiyaka.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BCC22062591FEDA0035DA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCC21E72591FED70035DA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCC21EE2591FED70035DA17;
+			remoteInfo = Hiyaka;
+		};
+		2BCC22112591FEDB0035DA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCC21E72591FED70035DA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCC21EE2591FED70035DA17;
+			remoteInfo = Hiyaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25819CDE87F8DF6CF000A227 /* Pods_HiyakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiyakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC21EF2591FED70035DA17 /* Hiyaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiyaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC21F22591FED70035DA17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BCC21F42591FED70035DA17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BCC21F62591FED70035DA17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BCC21F92591FED70035DA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BCC21FE2591FEDA0035DA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BCC22002591FEDA0035DA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCC22052591FEDA0035DA17 /* HiyakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiyakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC22092591FEDA0035DA17 /* HiyakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiyakaTests.swift; sourceTree = "<group>"; };
+		2BCC220B2591FEDA0035DA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCC22102591FEDA0035DA17 /* HiyakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiyakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC22142591FEDB0035DA17 /* HiyakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiyakaUITests.swift; sourceTree = "<group>"; };
+		2BCC22162591FEDB0035DA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCC22282591FF650035DA17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2BCC222D2591FF730035DA17 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2BCC22322591FF800035DA17 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2BCC223C259201370035DA17 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2BCC2244259201560035DA17 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		2BCC2249259201650035DA17 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		2BCC224E259201A00035DA17 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		2BCC2253259201D60035DA17 /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+		2BCC2258259202040035DA17 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		2BCC225D2592024F0035DA17 /* OrderSucceedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSucceedViewController.swift; sourceTree = "<group>"; };
+		2BCC22622592026E0035DA17 /* OrderFailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFailedViewController.swift; sourceTree = "<group>"; };
+		2BCC2268259202EB0035DA17 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		2BCC2271259203590035DA17 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2BCC2276259203720035DA17 /* ProfileSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingViewController.swift; sourceTree = "<group>"; };
+		2BCC22AE2592390E0035DA17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39D7A708BFBBF1A79EE3E9D5 /* Pods-HiyakaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiyakaTests.debug.xcconfig"; path = "Target Support Files/Pods-HiyakaTests/Pods-HiyakaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		530476E2B51DA818FD5B47C1 /* Pods-Hiyaka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiyaka.debug.xcconfig"; path = "Target Support Files/Pods-Hiyaka/Pods-Hiyaka.debug.xcconfig"; sourceTree = "<group>"; };
+		5D6B8AA700522D6A3E3B3004 /* Pods-Hiyaka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiyaka.release.xcconfig"; path = "Target Support Files/Pods-Hiyaka/Pods-Hiyaka.release.xcconfig"; sourceTree = "<group>"; };
+		88C305E039E87F486695833C /* Pods_Hiyaka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hiyaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0E01E090BC0C7ABBAF1334 /* Pods-HiyakaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiyakaTests.release.xcconfig"; path = "Target Support Files/Pods-HiyakaTests/Pods-HiyakaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F99343052E93C2E8450A86E /* Pods-Hiyaka-HiyakaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiyaka-HiyakaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hiyaka-HiyakaUITests/Pods-Hiyaka-HiyakaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5EF5F84519BA17F22D67CE /* Pods_Hiyaka_HiyakaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hiyaka_HiyakaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A0967626366212B94EB66 /* Pods-Hiyaka-HiyakaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiyaka-HiyakaUITests.release.xcconfig"; path = "Target Support Files/Pods-Hiyaka-HiyakaUITests/Pods-Hiyaka-HiyakaUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCC21EC2591FED70035DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1060A523B115F66DE7A6E7 /* Pods_Hiyaka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC22022591FEDA0035DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB6167685F18BDEB4F603AF /* Pods_HiyakaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC220D2591FEDA0035DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA2C9AE4AA93F7A2CFEC2A9 /* Pods_Hiyaka_HiyakaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BCC21E62591FED70035DA17 = {
+			isa = PBXGroup;
+			children = (
+				2BCC21F12591FED70035DA17 /* Hiyaka */,
+				2BCC22082591FEDA0035DA17 /* HiyakaTests */,
+				2BCC22132591FEDB0035DA17 /* HiyakaUITests */,
+				2BCC21F02591FED70035DA17 /* Products */,
+				E9FE1F75E347BAF1232B2038 /* Pods */,
+				4A42F17DCF83BC53C11B42DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCC21F02591FED70035DA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC21EF2591FED70035DA17 /* Hiyaka.app */,
+				2BCC22052591FEDA0035DA17 /* HiyakaTests.xctest */,
+				2BCC22102591FEDA0035DA17 /* HiyakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCC21F12591FED70035DA17 /* Hiyaka */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC22AE2592390E0035DA17 /* GoogleService-Info.plist */,
+				2BCC21F22591FED70035DA17 /* AppDelegate.swift */,
+				2BCC21F42591FED70035DA17 /* SceneDelegate.swift */,
+				2BCC21F62591FED70035DA17 /* ViewController.swift */,
+				2BCC22002591FEDA0035DA17 /* Info.plist */,
+				2BCC22252591FF040035DA17 /* Model */,
+				2BCC22262591FF100035DA17 /* View */,
+				2BCC22272591FF240035DA17 /* Controller */,
+			);
+			path = Hiyaka;
+			sourceTree = "<group>";
+		};
+		2BCC22082591FEDA0035DA17 /* HiyakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC22092591FEDA0035DA17 /* HiyakaTests.swift */,
+				2BCC220B2591FEDA0035DA17 /* Info.plist */,
+			);
+			path = HiyakaTests;
+			sourceTree = "<group>";
+		};
+		2BCC22132591FEDB0035DA17 /* HiyakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC22142591FEDB0035DA17 /* HiyakaUITests.swift */,
+				2BCC22162591FEDB0035DA17 /* Info.plist */,
+			);
+			path = HiyakaUITests;
+			sourceTree = "<group>";
+		};
+		2BCC22252591FF040035DA17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC22282591FF650035DA17 /* User.swift */,
+				2BCC222D2591FF730035DA17 /* Item.swift */,
+				2BCC22322591FF800035DA17 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BCC22262591FF100035DA17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC21F82591FED70035DA17 /* Main.storyboard */,
+				2BCC21FD2591FEDA0035DA17 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BCC22272591FF240035DA17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC223B259200590035DA17 /* WishList */,
+				2BCC223A259200230035DA17 /* CartList */,
+				2BCC2239259200030035DA17 /* ItemList */,
+				2BCC22702592030B0035DA17 /* Profile */,
+				2BCC2267259202BF0035DA17 /* UserOrder */,
+				2BCC22372591FFC40035DA17 /* LogInView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BCC22372591FFC40035DA17 /* LogInView */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC223C259201370035DA17 /* RegisterViewController.swift */,
+			);
+			path = LogInView;
+			sourceTree = "<group>";
+		};
+		2BCC2239259200030035DA17 /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2244259201560035DA17 /* ItemListViewController.swift */,
+				2BCC2249259201650035DA17 /* ItemCell.swift */,
+			);
+			path = ItemList;
+			sourceTree = "<group>";
+		};
+		2BCC223A259200230035DA17 /* CartList */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC224E259201A00035DA17 /* CartViewController.swift */,
+				2BCC2258259202040035DA17 /* PaymentViewController.swift */,
+				2BCC225D2592024F0035DA17 /* OrderSucceedViewController.swift */,
+				2BCC22622592026E0035DA17 /* OrderFailedViewController.swift */,
+			);
+			path = CartList;
+			sourceTree = "<group>";
+		};
+		2BCC223B259200590035DA17 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2253259201D60035DA17 /* WishViewController.swift */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		2BCC2267259202BF0035DA17 /* UserOrder */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2268259202EB0035DA17 /* OrderViewController.swift */,
+			);
+			path = UserOrder;
+			sourceTree = "<group>";
+		};
+		2BCC22702592030B0035DA17 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2271259203590035DA17 /* ProfileViewController.swift */,
+				2BCC2276259203720035DA17 /* ProfileSettingViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4A42F17DCF83BC53C11B42DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C305E039E87F486695833C /* Pods_Hiyaka.framework */,
+				CD5EF5F84519BA17F22D67CE /* Pods_Hiyaka_HiyakaUITests.framework */,
+				25819CDE87F8DF6CF000A227 /* Pods_HiyakaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9FE1F75E347BAF1232B2038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				530476E2B51DA818FD5B47C1 /* Pods-Hiyaka.debug.xcconfig */,
+				5D6B8AA700522D6A3E3B3004 /* Pods-Hiyaka.release.xcconfig */,
+				9F99343052E93C2E8450A86E /* Pods-Hiyaka-HiyakaUITests.debug.xcconfig */,
+				CD6A0967626366212B94EB66 /* Pods-Hiyaka-HiyakaUITests.release.xcconfig */,
+				39D7A708BFBBF1A79EE3E9D5 /* Pods-HiyakaTests.debug.xcconfig */,
+				8C0E01E090BC0C7ABBAF1334 /* Pods-HiyakaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCC21EE2591FED70035DA17 /* Hiyaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCC22192591FEDB0035DA17 /* Build configuration list for PBXNativeTarget "Hiyaka" */;
+			buildPhases = (
+				34B50BB0712758CE266A026D /* [CP] Check Pods Manifest.lock */,
+				2BCC21EB2591FED70035DA17 /* Sources */,
+				2BCC21EC2591FED70035DA17 /* Frameworks */,
+				2BCC21ED2591FED70035DA17 /* Resources */,
+				DC4361720F7AC43CD0385B83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hiyaka;
+			productName = Hiyaka;
+			productReference = 2BCC21EF2591FED70035DA17 /* Hiyaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BCC22042591FEDA0035DA17 /* HiyakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCC221C2591FEDB0035DA17 /* Build configuration list for PBXNativeTarget "HiyakaTests" */;
+			buildPhases = (
+				D2EAA67D4F4F359D9BACCB53 /* [CP] Check Pods Manifest.lock */,
+				2BCC22012591FEDA0035DA17 /* Sources */,
+				2BCC22022591FEDA0035DA17 /* Frameworks */,
+				2BCC22032591FEDA0035DA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCC22072591FEDA0035DA17 /* PBXTargetDependency */,
+			);
+			name = HiyakaTests;
+			productName = HiyakaTests;
+			productReference = 2BCC22052591FEDA0035DA17 /* HiyakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BCC220F2591FEDA0035DA17 /* HiyakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCC221F2591FEDB0035DA17 /* Build configuration list for PBXNativeTarget "HiyakaUITests" */;
+			buildPhases = (
+				DB01AB946AE94C373543CFA2 /* [CP] Check Pods Manifest.lock */,
+				2BCC220C2591FEDA0035DA17 /* Sources */,
+				2BCC220D2591FEDA0035DA17 /* Frameworks */,
+				2BCC220E2591FEDA0035DA17 /* Resources */,
+				945E718DA3C511EB34A35E80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCC22122591FEDB0035DA17 /* PBXTargetDependency */,
+			);
+			name = HiyakaUITests;
+			productName = HiyakaUITests;
+			productReference = 2BCC22102591FEDA0035DA17 /* HiyakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCC21E72591FED70035DA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2BCC21EE2591FED70035DA17 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2BCC22042591FEDA0035DA17 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2BCC21EE2591FED70035DA17;
+					};
+					2BCC220F2591FEDA0035DA17 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2BCC21EE2591FED70035DA17;
+					};
+				};
+			};
+			buildConfigurationList = 2BCC21EA2591FED70035DA17 /* Build configuration list for PBXProject "Hiyaka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BCC21E62591FED70035DA17;
+			productRefGroup = 2BCC21F02591FED70035DA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCC21EE2591FED70035DA17 /* Hiyaka */,
+				2BCC22042591FEDA0035DA17 /* HiyakaTests */,
+				2BCC220F2591FEDA0035DA17 /* HiyakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCC21ED2591FED70035DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC21FF2591FEDA0035DA17 /* LaunchScreen.storyboard in Resources */,
+				2BCC22AF2592390E0035DA17 /* GoogleService-Info.plist in Resources */,
+				2BCC21FA2591FED70035DA17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC22032591FEDA0035DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC220E2591FEDA0035DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34B50BB0712758CE266A026D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hiyaka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945E718DA3C511EB34A35E80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiyaka-HiyakaUITests/Pods-Hiyaka-HiyakaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiyaka-HiyakaUITests/Pods-Hiyaka-HiyakaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hiyaka-HiyakaUITests/Pods-Hiyaka-HiyakaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EAA67D4F4F359D9BACCB53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiyakaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB01AB946AE94C373543CFA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hiyaka-HiyakaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4361720F7AC43CD0385B83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiyaka/Pods-Hiyaka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiyaka/Pods-Hiyaka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hiyaka/Pods-Hiyaka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCC21EB2591FED70035DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC2277259203720035DA17 /* ProfileSettingViewController.swift in Sources */,
+				2BCC22332591FF800035DA17 /* Order.swift in Sources */,
+				2BCC2245259201560035DA17 /* ItemListViewController.swift in Sources */,
+				2BCC224F259201A00035DA17 /* CartViewController.swift in Sources */,
+				2BCC224A259201650035DA17 /* ItemCell.swift in Sources */,
+				2BCC22292591FF650035DA17 /* User.swift in Sources */,
+				2BCC2254259201D60035DA17 /* WishViewController.swift in Sources */,
+				2BCC2272259203590035DA17 /* ProfileViewController.swift in Sources */,
+				2BCC223D259201370035DA17 /* RegisterViewController.swift in Sources */,
+				2BCC2259259202040035DA17 /* PaymentViewController.swift in Sources */,
+				2BCC222E2591FF730035DA17 /* Item.swift in Sources */,
+				2BCC21F72591FED70035DA17 /* ViewController.swift in Sources */,
+				2BCC225E259202500035DA17 /* OrderSucceedViewController.swift in Sources */,
+				2BCC2269259202EB0035DA17 /* OrderViewController.swift in Sources */,
+				2BCC21F32591FED70035DA17 /* AppDelegate.swift in Sources */,
+				2BCC22632592026E0035DA17 /* OrderFailedViewController.swift in Sources */,
+				2BCC21F52591FED70035DA17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC22012591FEDA0035DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC220A2591FEDA0035DA17 /* HiyakaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC220C2591FEDA0035DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC22152591FEDB0035DA17 /* HiyakaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BCC22072591FEDA0035DA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCC21EE2591FED70035DA17 /* Hiyaka */;
+			targetProxy = 2BCC22062591FEDA0035DA17 /* PBXContainerItemProxy */;
+		};
+		2BCC22122591FEDB0035DA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCC21EE2591FED70035DA17 /* Hiyaka */;
+			targetProxy = 2BCC22112591FEDB0035DA17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BCC21F82591FED70035DA17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCC21F92591FED70035DA17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BCC21FD2591FEDA0035DA17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCC21FE2591FEDA0035DA17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BCC22172591FEDB0035DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BCC22182591FEDB0035DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCC221A2591FEDB0035DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530476E2B51DA818FD5B47C1 /* Pods-Hiyaka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = Hiyaka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuwaiq.ashwaq.Hiyaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2BCC221B2591FEDB0035DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6B8AA700522D6A3E3B3004 /* Pods-Hiyaka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = Hiyaka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuwaiq.ashwaq.Hiyaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2BCC221D2591FEDB0035DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D7A708BFBBF1A79EE3E9D5 /* Pods-HiyakaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = HiyakaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAFCSP.HiyakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiyaka.app/Hiyaka";
+			};
+			name = Debug;
+		};
+		2BCC221E2591FEDB0035DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0E01E090BC0C7ABBAF1334 /* Pods-HiyakaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = HiyakaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAFCSP.HiyakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiyaka.app/Hiyaka";
+			};
+			name = Release;
+		};
+		2BCC22202591FEDB0035DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F99343052E93C2E8450A86E /* Pods-Hiyaka-HiyakaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = HiyakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAFCSP.HiyakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hiyaka;
+			};
+			name = Debug;
+		};
+		2BCC22212591FEDB0035DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6A0967626366212B94EB66 /* Pods-Hiyaka-HiyakaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = HiyakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAFCSP.HiyakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hiyaka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCC21EA2591FED70035DA17 /* Build configuration list for PBXProject "Hiyaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC22172591FEDB0035DA17 /* Debug */,
+				2BCC22182591FEDB0035DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCC22192591FEDB0035DA17 /* Build configuration list for PBXNativeTarget "Hiyaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC221A2591FEDB0035DA17 /* Debug */,
+				2BCC221B2591FEDB0035DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCC221C2591FEDB0035DA17 /* Build configuration list for PBXNativeTarget "HiyakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC221D2591FEDB0035DA17 /* Debug */,
+				2BCC221E2591FEDB0035DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCC221F2591FEDB0035DA17 /* Build configuration list for PBXNativeTarget "HiyakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC22202591FEDB0035DA17 /* Debug */,
+				2BCC22212591FEDB0035DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCC21E72591FED70035DA17 /* Project object */;
+}
