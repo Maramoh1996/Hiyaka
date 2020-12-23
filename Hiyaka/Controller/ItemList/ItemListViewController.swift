@@ -43,32 +43,33 @@ func getItemList() {
             print("Item dose not exist \(error) ")
         } else {
             for doc in querySnapshot!.documents {
-//                let itemID = (doc["itemId"] as! String)
+                let itemID = (doc["itemId"] as! String)
                 let imageURL = (doc["itemImgae"] as! String )
                 let description = (doc["itemDescription"] as! String)
-//                let price = (doc["itemPrice"] as! String)
+                let price = (doc["itemPrice"] as! String)
         
                 let gsRefrence = storage.reference(forURL: imageURL)
 //                let storageRef = storage.reference()
                 
 //                let ref = storageRef.child("image1.png")
                 
-                gsRefrence.getData(maxSize: 2 * 1024 * 1024 ) { data, error in
+                gsRefrence.getData(maxSize: 1 * 1024 * 1024 ) { data, error in
                     if let error = error?.localizedDescription {
 
                         print(error)
                     } else {
                       // Data for "images/island.jpg" is returned
                         image = UIImage(data: data!)
+                        let itemInfo = Item(id: itemID, image: image , desc: description, price: price)
+                        items.append(itemInfo)
+                        collectionView.reloadData()
                     }
                   }
                 
 //                let compress = image?.wxCompress()
-                DispatchQueue.main.async {
-                    let itemInfo = Item(/*id: itemID,*/ image: image , desc: description/*, price: price*/)
-                    items.append(itemInfo)
-                    collectionView.reloadData()
-                }
+//                DispatchQueue.main.async {
+//                    
+//                }
              
             
             }
@@ -85,5 +86,10 @@ func getItemList() {
 //        cell.price.text = "\(item.itemPrice) SR."
         cell.image.image = item.itemImage
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = collectionView.frame.width / 2
+        return CGSize(width: width , height: width)
     }
 }
