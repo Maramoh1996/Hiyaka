@@ -26,10 +26,10 @@ class ViewController: UIViewController {
         
         let storage = Storage.storage()
     
-        let gsRefrence = storage.reference(forURL: "gs://hiyaka-d2543.appspot.com")
+        let gsRefrence = storage.reference(forURL: "gs://hiyaka-d2543.appspot.com/items")
         let storageRef = storage.reference()
         
-        let ref = storageRef.child("image7.png")
+        let ref = storageRef.child("image3.png")
         
         ref.getData(maxSize: 1 * 1024 * 1024) { data, error in
             if let error = error?.localizedDescription {
